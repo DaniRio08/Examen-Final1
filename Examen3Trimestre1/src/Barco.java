@@ -23,6 +23,9 @@ public abstract class Barco {
     //MÉTODOS
 
     //Método que recibe una lista de barcos y devuelve el de mayor tamaño
+    /*En principio, el enunciado este método dice que debería devolver la matrícula de un barco en vez de un objeto del tipo barco en sí.
+    Sin embargo, es mucho más práctico que devuelva un objeto barco, ya que si solo devuelve la matrícula se debería hacer un bucle
+    después de usar el método para buscar en el array de barcos a que barco pertenece la matrícula obtenida*/
     public static Barco mayorTamaño(ArrayList<Barco> barcosEntrantes) {
         float mayorTamaño = 0;
         int mayorPosición = 0;
